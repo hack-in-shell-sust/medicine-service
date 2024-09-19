@@ -19,3 +19,7 @@ server:
 
 cors:
   allowed-origin: http://localhost:8080
+
+springdoc:
+  swagger-ui:
+    path: /medicine/swagger-ui.html
