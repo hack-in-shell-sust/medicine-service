@@ -18,8 +18,8 @@ server:
   port: 8692
 
 cors:
-  allowed-origin: http://localhost:8080
+  allowed-origin: "*"
 
 springdoc:
   swagger-ui:
-    path: /medicine/swagger-ui.html
+    path: /swagger-ui.html
